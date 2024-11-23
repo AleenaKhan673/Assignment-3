@@ -4,12 +4,13 @@ const mongoose = require("mongoose");
 
 let bookModel = mongoose.Schema({
     Name: String,
-    Author: String,
-    Published: String,
+    Brand: String,
+    ItemType: String,
     Description: String,
-    Price: Number
+    Price: Number,
+    Address: String,
 },
 {
-    collection:"Bio_books"
+    collection:"Cart"
 });
-module.exports =mongoose.model('Book',bookModel);
+module.exports =mongoose.model('Cart',cartModel);
