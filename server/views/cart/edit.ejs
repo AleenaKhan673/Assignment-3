@@ -8,23 +8,23 @@
             <form class="form" method="POST">
                 <div class="form-group">
                     <label for="nameTextField">Book Title</label>
-                    <input type="text" class="form-control" id="nameTextField" placeholder="Enter the Book Title" name="Name" value="<%= Book.Name %>" required>
+                    <input type="text" class="form-control" id="nameTextField" placeholder="Enter the Book Title" name="Name" value="<%= cart.Name %>" required>
                 </div>
                 <div class="form-group">
                     <label for="authorTextField">Book Author</label>
-                    <input type="text" class="form-control" id="authorTextField" placeholder="Enter the Book Author" name="Author" value="<%= Book.Author %>" required>
+                    <input type="text" class="form-control" id="authorTextField" placeholder="Enter the Book Author" name="Brand" value="<%= cart.Brand %>" required>
                 </div>
                 <div class="form-group">
                     <label for="publishedTextField">Published</label>
-                    <input type="text" class="form-control" id="publishedTextField" placeholder="Enter the Published year" name="Published" value="<%= Book.Published %>" required>
+                    <input type="text" class="form-control" id="publishedTextField" placeholder="Enter the Published year" name="ItemType" value="<%= cart.ItemType %>" required>
                 </div>
                 <div class="form-group">
                     <label for="descriptionTextArea">Book Description</label>
-                    <textarea type="text" class="form-control" id="descriptionTextArea"  placeholder="enter the Book Description" name="Description" required><%= Book.Description %></textarea>
+                    <textarea type="text" class="form-control" id="descriptionTextArea"  placeholder="enter the Book Description" name="Description" required><%= cart.Description %></textarea>
                 </div>
                 <div class="form-group">
                     <label for="priceTextField">Price</label>
-                    <input type="text" class="form-control" id="priceTextField" placeholder="Book's Price" name="Price" value="<%= Book.Price %>" required>
+                    <input type="text" class="form-control" id="priceTextField" placeholder="Book's Price" name="Price" value="<%= cart.Price %>" required>
                 </div>
                 <button class="btn btn-primary" type="submit">Submit
                 <i class="fas fa-edit"></i></button>  
