@@ -11,6 +11,6 @@ let bookModel = mongoose.Schema({
     Address: String,
 },
 {
-    collection:"Cart"
+    collection:"cart"
 });
-module.exports =mongoose.model('Cart',cartModel);
+module.exports =mongoose.model('cart',cartModel);
