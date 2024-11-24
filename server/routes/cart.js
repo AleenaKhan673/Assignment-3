@@ -14,10 +14,10 @@ Put --> Edit/Update
 /* Read Operation --> Get route for displaying the carts list */
 router.get('/',async(req,res,next)=>{
 try{
-    const cartList = await cart.find();
+    const cartlist = await cart.find();
     res.render('cart/list',{
         title:'cart',
-        cartList:cartList
+        cartlist:cartlist
     })}
     catch(err){
         console.error(err);
@@ -53,7 +53,7 @@ router.post('/add',async(req,res,next)=>{
             "Address":req.body.Address
         });
         cart.create(newcart).then(()=>{
-            res.redirect('/cartslist');
+            res.redirect('/cartlist');
         })
     }
     catch(err)
@@ -86,7 +86,8 @@ router.get('/edit/:id',async(req,res,next)=>{
 router.post('/edit/:id',async(req,res,next)=>{
     try{
         let id=req.params.id;
-        let updatedcart = cart({
+        let updatedcart = ({
+            "_id":id,
             "Name":req.body.Name,
             "Brand":req.body.Brand,
             "ItemType":req.body.ItemType,
@@ -95,7 +96,7 @@ router.post('/edit/:id',async(req,res,next)=>{
             "Address":req.body.Address
         });
         cart.findByIdAndUpdate(id,updatedcart).then(()=>{
-            res.redirect('/cartslist')
+            res.redirect('/cartlist')
         })
     }
     catch(err){
@@ -110,11 +111,11 @@ router.get('/delete/:id',async(req,res,next)=>{
     try{
         let id=req.params.id;
         cart.deleteOne({_id:id}).then(()=>{
-            res.redirect('/cartslist')
+            res.redirect('/')
         })
     }
     catch(error){
-        console.error(err);
+        console.error(error);
         res.render('cart/list',{
             error:'Error on the server'
         })
