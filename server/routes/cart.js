@@ -54,7 +54,7 @@ router.post('/add',async(req,res,next)=>{
             "Address":req.body.Address
         });
         cart.create(newcart).then(()=>{
-            res.redirect('/cartlist');
+            res.redirect('/cart');
         })
     }
     catch(err)
