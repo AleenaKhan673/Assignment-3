@@ -16,6 +16,7 @@
                     <th class="text-center col-1">ItemType</th>
                     <th class="col-4">Description</th>
                     <th class="text-center col-1">Price</th>
+                    <th class="text-center col-1">Address</th>
                 </tr>
                 <% for(let count=0;count<cartlist.length;count++) { %>
                 <tr class="d-flex">
@@ -24,6 +25,7 @@
                     <td class="text-center col-1"><%= cartlist[count].ItemType%></td>
                     <td class="col-4"><%= cartlist[count].Description %> </td>
                     <td class="text-center col-1"><%= cartlist[count].Price %></td>
+                    <td class="text-center col-1"><%= cartlist[count].Address %></td>
                     <td class="text-center col-1">
                         <a href="/cartlist/edit/<%= cartlist[count]._id%>"
                             class="btn btn-primary btn-sm"> 
