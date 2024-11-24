@@ -8,8 +8,8 @@ body {
   background: linear-gradient(#5B342A, #c67966,#FDF7F5, #70250E, #472921, #1d110d)
 }
 img {
-    width: 100%;         /* Set width to 100% of its parent container */
-    height: auto;        /* Maintain aspect ratio */
+    width: 100%;         /* to fill the viewport */
+    height: 100%;        /* to fill the viewport */
     border-radius: 8px;  /* Add rounded corners */
 }
 h2, h4 {
