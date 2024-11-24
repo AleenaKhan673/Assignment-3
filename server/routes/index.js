@@ -18,6 +18,11 @@ router.get('/products', function(req, res, next) {
   res.render('index', { title: 'List of Products' });
 });
 
+/* GET Shopping Cart page. */
+router.get('/cartlist', function(req, res, next) {
+  res.render('index', { title:'Shopping Cart' });
+});
+
 /* GET contactus page. */
 router.get('/contactus', function(req, res, next) {
   res.render('index', { title: 'Contact Us' });
