@@ -7,15 +7,15 @@ router.get('/', function(req, res, next) {
 });
 /* GET home page. */
 router.get('/home', function(req, res, next) {
-  res.render('index', { title: 'Home' });
+  res.render('home', { title: 'Home' });
 });
 /* GET About page. */
 router.get('/aboutus', function(req, res, next) {
-  res.render('index', { title: 'About us' });
+  res.render('about', { title: 'About us' });
 });
 /* GET products page. */
 router.get('/products', function(req, res, next) {
-  res.render('index', { title: 'List of Products' });
+  res.render('products', { title: 'List of Products' });
 });
 
 /* GET Shopping Cart page. */
@@ -25,7 +25,7 @@ router.get('/cartlist', function(req, res, next) {
 
 /* GET contactus page. */
 router.get('/contactus', function(req, res, next) {
-  res.render('index', { title: 'Contact Us' });
+  res.render('contact', { title: 'Contact Us' });
 });
 
 module.exports = router;
