@@ -97,7 +97,7 @@ router.post('/edit/:id',async(req,res,next)=>{
             "Address":req.body.Address
         });
         cart.findByIdAndUpdate(id,updatedcart).then(()=>{
-            res.redirect('/cartlist')
+            res.redirect('/cart')
         })
     }
     catch(err){
@@ -112,7 +112,7 @@ router.get('/delete/:id',async(req,res,next)=>{
     try{
         let id=req.params.id;
         cart.deleteOne({_id:id}).then(()=>{
-            res.redirect('/')
+            res.redirect('/cart')
         })
     }
     catch(error){
