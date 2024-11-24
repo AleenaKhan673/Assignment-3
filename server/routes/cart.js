@@ -49,7 +49,8 @@ router.post('/add',async(req,res,next)=>{
             "Brand":req.body.Brand,
             "ItemType":req.body.ItemType,
             "Description":req.body.Description,
-            "Price":req.body.Price
+            "Price":req.body.Price,
+            "Address":req.body.Address
         });
         cart.create(newcart).then(()=>{
             res.redirect('/cartslist');
@@ -90,7 +91,8 @@ router.post('/edit/:id',async(req,res,next)=>{
             "Brand":req.body.Brand,
             "ItemType":req.body.ItemType,
             "Description":req.body.Description,
-            "Price":req.body.Price
+            "Price":req.body.Price,
+            "Address":req.body.Address
         });
         cart.findByIdAndUpdate(id,updatedcart).then(()=>{
             res.redirect('/cartslist')
