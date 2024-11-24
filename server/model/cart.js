@@ -2,7 +2,7 @@
 
 const mongoose = require("mongoose");
 
-let bookModel = mongoose.Schema({
+let cartModel = mongoose.Schema({
     Name: String,
     Brand: String,
     ItemType: String,

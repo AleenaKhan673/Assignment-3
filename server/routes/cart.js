@@ -3,8 +3,8 @@ var router = express.Router();
 let mongoose = require('mongoose');
 // telling my router that I have this model
 let cart = require('../model/cart.js');
-const cart = require('../model/cart.js');
 let cartController = require('../controllers/cart.js')
+
 /* Get route for the cart list - Read Operation */
 /*
 GET,
