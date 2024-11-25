@@ -12,16 +12,14 @@ h2{
     font-family: "Bodoni Moda SC", serif;
     font-size: 100px !important;
     text-align: center;
+    text-shadow: 2px 2px 4px rgb(175, 149, 149);
+    font-weight: 800;
 }
 
 p{
-    font-family: "Bodoni Moda SC", serif;
+    font-family: serif;
     font-size: 50px !important;
     text-align: center; 
     text-shadow: 4px 4px 4px#565050;
 }
 
-br{
-    font-family: "Bodoni Moda SC", serif;
-    font-size: 40px !important;
-}

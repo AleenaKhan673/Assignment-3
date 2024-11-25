@@ -7,25 +7,33 @@ body {
     margin: 0;
     background: linear-gradient(#2e2e30, #a5a1a1, #b1b1b1, #131219);
     text-align: right;
+}
+
+h2{
+    font-family: "Bodoni Moda SC", serif;
+    font-size: 100px !important;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgb(175, 149, 149);
+    font-weight: 800;
 
 }
 
-aside {
-    font-family: "Herr Von Muellerhoff", cursive;
-    margin-right: 15px;
-    height: 100vh;
-    width: 350px;
-    justify-content: space-between;
-    flex-direction: column;
-    text-align: right;
+p{
+    font-family: serif;
+    font-size: 50px !important;
+    text-align: center; 
+    text-shadow: 2px 2px 4px rgb(175, 149, 149);
 }
 
-h2 {
-    font-size:larger;
-    text-align: right;
+br{
+    font-family: serif;
+    font-size: 40px !important;
+    text-shadow: 2px 2px 4px rgb(175, 149, 149);
 }
 
-img{
+.img {
     display: block;
+    margin-left: auto;
     margin-right: auto;
+    width: 100%;
 }
