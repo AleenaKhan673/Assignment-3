@@ -14,3 +14,4 @@ let cartModel = mongoose.Schema({
     collection:"cart"
 });
 module.exports =mongoose.model('cart',cartModel);
+/* this creates the needed data types for mongo database, model that I follow when creating routes. */
