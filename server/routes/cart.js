@@ -17,7 +17,7 @@ router.get('/',async(req,res,next)=>{
 try{
     const cartlist = await cart.find();
     res.render('cart/list',{
-        title:'carts',
+        title:'Your Shopping Cart',
         cartlist:cartlist
     })}
     catch(err){
