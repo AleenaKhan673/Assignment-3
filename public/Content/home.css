@@ -3,7 +3,7 @@ html {
 }
 
 body { 
-  background: linear-gradient(rgba(83, 81, 82, 0.4), rgb(141, 141, 151));
+  background: linear-gradient(#2e2e30, #a5a1a1, #b1b1b1, #131219);
 }
 img {
   max-height:900px;
