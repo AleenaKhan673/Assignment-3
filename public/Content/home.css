@@ -1,21 +1,38 @@
-body {
-  background-image: url('/Assets/images/home.jpg');
-  background-size: 100vw 100vh;
-  margin: 0;
-  padding:0;
-  color: whitesmoke;
-  font-family: 'Arial', sans-serif; 
-  background: linear-gradient(#5B342A, #c67966,#FDF7F5, #70250E, #472921, #1d110d)
-}
-img {
-    width: 100%;         /* to fill the viewport */
-    height: 100%;        /* to fill the viewport */
-    border-radius: 8px;  /* Add rounded corners */
-}
-h2, h4 {
-    margin: 0;
-    text-shadow: 2px 2px 4px rgba(0,0,0,07);
-    text-align: center;
-    padding: 0.5em
+html {
+  overflow: hidden;
 }
 
+body { 
+  background: linear-gradient(rgba(83, 81, 82, 0.4), rgb(141, 141, 151));
+}
+img {
+  max-height:900px;
+  width:70%;
+  height:auto;
+  opacity: 10;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  overflow:hidden;
+}
+
+h2 {
+  text-shadow: 2px 2px 4px rgb(175, 149, 149);
+  text-align: center;
+  font-family: "Bodoni Moda SC", serif;
+  font-size: xx-large;
+  font-style: normal;
+  padding: 0.5em
+
+}
+
+h4 {
+  margin: 0;
+  text-shadow: 2px 2px 4px rgb(175, 149, 149);
+  text-align: center;
+  font-family: "Herr Von Muellerhoff", cursive;
+  font-weight: 900;
+  font-size: x-large;
+  font-style: normal;
+  padding: 0.5em
+}

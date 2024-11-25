@@ -4,7 +4,5 @@ html {
 body {
     height: 100%;
     margin: 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background: linear-gradient(#5B342A, #c67966,#FDF7F5, #70250E, #472921, #1d110d)
+    background: linear-gradient(#43251e, #c7a9a2,#FDF7F5, #9a695b, #472921, #481d0f)
 }
