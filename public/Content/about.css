@@ -1,14 +1,15 @@
 html {
     height: 100%;
-}
+} 
 
 body {
     height: 100%;
     margin: 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     background: linear-gradient(#2e2e30, #a5a1a1, #b1b1b1, #131219);
+    text-align: right;
+
 }
+
 aside {
     font-family: "Herr Von Muellerhoff", cursive;
     margin-right: 15px;
@@ -16,11 +17,15 @@ aside {
     width: 350px;
     justify-content: space-between;
     flex-direction: column;
+    text-align: right;
 }
 
 h2 {
     font-size:larger;
+    text-align: right;
 }
-p{
-   text-align: right;
+
+img{
+    display: block;
+    margin-right: auto;
 }

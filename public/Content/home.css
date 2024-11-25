@@ -1,10 +1,9 @@
-html {
-  overflow: hidden;
-}
+
 
 body { 
   background: linear-gradient(#2e2e30, #a5a1a1, #b1b1b1, #131219);
 }
+
 img {
   max-height:900px;
   width:70%;
@@ -20,7 +19,7 @@ h2 {
   text-shadow: 2px 2px 4px rgb(175, 149, 149);
   text-align: center;
   font-family: "Bodoni Moda SC", serif;
-  font-size: xx-large;
+  font-size: 80px !important; 
   font-style: normal;
   padding: 0.5em
 
@@ -31,8 +30,8 @@ h4 {
   text-shadow: 2px 2px 4px rgb(175, 149, 149);
   text-align: center;
   font-family: "Herr Von Muellerhoff", cursive;
-  font-weight: 900;
-  font-size: x-large;
+  font-weight: 1000;
+  font-size: 50px !important;
   font-style: normal;
   padding: 0.5em
 }
