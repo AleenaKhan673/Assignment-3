@@ -9,3 +9,18 @@ body {
     background-attachment: fixed;
     background: linear-gradient(#2e2e30, #a5a1a1, #b1b1b1, #131219);
 }
+aside {
+    font-family: "Herr Von Muellerhoff", cursive;
+    margin-right: 15px;
+    height: 100vh;
+    width: 350px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+h2 {
+    font-size:larger;
+}
+p{
+   text-align: right;
+}
