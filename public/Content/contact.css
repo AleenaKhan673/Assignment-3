@@ -10,7 +10,7 @@ body {
 
 h2{
     font-family: "Bodoni Moda SC", serif;
-    font-size: 100px !important;
+    font-size: 60px !important;
     text-align: center;
     text-shadow: 2px 2px 4px rgb(175, 149, 149);
     font-weight: 800;
@@ -18,7 +18,7 @@ h2{
 
 p{
     font-family: serif;
-    font-size: 50px !important;
+    font-size: 30px !important;
     text-align: center; 
     text-shadow: 4px 4px 4px#565050;
 }
